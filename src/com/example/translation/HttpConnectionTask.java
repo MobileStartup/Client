@@ -31,5 +31,4 @@ public class HttpConnectionTask extends AsyncTask<String, Void, String> {
 		}
 		return output;
 	}
-
 }

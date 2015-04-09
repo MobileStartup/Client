@@ -134,4 +134,5 @@ public class MainActivity extends Activity {
 		dataSource.close();
 		super.onPause();
 	}
+	
 }

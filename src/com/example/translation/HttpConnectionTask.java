@@ -24,7 +24,6 @@ public class HttpConnectionTask extends AsyncTask<String, Void, String> {
 			HttpGet request = new HttpGet(url);
 			request.setHeader("toke", "sodfijo2323");
 			HttpResponse response = http_client.execute(request);
-			response.getHeaders("token");
 			HttpEntity entity = response.getEntity();
 			output = EntityUtils.toString(entity, HTTP.UTF_8);
 		} catch (Exception e) {
